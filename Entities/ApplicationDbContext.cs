@@ -23,5 +23,7 @@ namespace service.Entities
                    $"pwd={databasePass};" +
                    $"pooling=true;";
         }
+
+        public DbSet<Product> Products { get; set; }
     }
 }
