@@ -19,5 +19,7 @@ namespace service.Entities
 
         [Required]
         public int Stock { get; set; }
+
+        public Category category { set; get; }
     }
 }
